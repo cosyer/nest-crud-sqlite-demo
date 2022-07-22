@@ -1,0 +1,43 @@
+{
+  "editor.formatOnSave": true,
+  "files.autoSave": "off",
+  "git.ignoreMissingGitWarning": true,
+  "git.enableSmartCommit": true,
+  "powermode.enabled": false, // 屏振
+  "git.autofetch": true,
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "[javascript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "vetur.format.defaultFormatter.html": "js-beautify-html",
+  "javascript.updateImportsOnFileMove.enabled": "never",
+  "files.associations": {
+    "*.cjson": "jsonc",
+    "*.wxss": "css",
+    "*.wxs": "javascript"
+  },
+  "emmet.includeLanguages": {
+    "wxml": "html"
+  },
+  "minapp-vscode.disableAutoConfig": true,
+  "typescript.locale": "zh-CN",
+  "window.zoomLevel": 0,
+  "terminal.integrated.fontFamily": "DejaVu Sans Mono for Powerline",
+  "diffEditor.ignoreTrimWhitespace": false,
+  // 文件头部注释
+  "fileheader.customMade": {
+    "Description": "",
+    // "version": "",
+    "Author": "chenyu",
+    "Date": "Do not edit",
+    "LastEditors": "chenyu",
+    "LastEditTime": "Do not Edit"
+  },
+  // 函数注释
+  "fileheader.cursorMode": {
+    "name": "",
+    "msg": "",
+    "param": "",
+    "return": ""
+  }
+}
